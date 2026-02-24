@@ -1,0 +1,36 @@
+{
+  "profiles": {
+    "azure-foundry": {
+      "name": "Azure Foundry",
+      "description": "Azure AI Foundry deployment",
+      "env": {
+        "ANTHROPIC_FOUNDRY_API_KEY": "YOUR_FOUNDRY_API_KEY",
+        "CLAUDE_CODE_USE_FOUNDRY": "1",
+        "ANTHROPIC_FOUNDRY_RESOURCE": "your-foundry-resource",
+        "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-5",
+        "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-haiku-4-5",
+        "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-1"
+      }
+    },
+    "vertex": {
+      "name": "Google Vertex AI",
+      "description": "Google Cloud Vertex AI deployment",
+      "env": {
+        "CLAUDE_CODE_USE_VERTEX": "1",
+        "CLOUD_ML_REGION": "us-east5",
+        "ANTHROPIC_VERTEX_PROJECT_ID": "YOUR_PROJECT_ID"
+      }
+    },
+    "direct": {
+      "name": "Direct API",
+      "description": "Direct Anthropic API access",
+      "env": {
+        "ANTHROPIC_API_KEY": "YOUR_API_KEY"
+      }
+    }
+  },
+  "workspaces": [],
+  "defaults": {
+    "folder_path": "/Users/yourname/Projects/"
+  }
+}

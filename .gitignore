@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Claude settings (may contain sensitive paths)
+.claude/
+
+# Icon file (extracted from app)
+claude_icon.icns
+
+# Config with API keys and personal workspaces (use profiles.example.json as template)
+profiles.json
