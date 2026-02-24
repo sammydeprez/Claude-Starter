@@ -1,6 +1,6 @@
-# Claude Starter
-
-A terminal launcher for Claude Code with workspace and profile management.
+<p align="center">
+  <img src="docs/images/screenshot.png" alt="Claude Starter Screenshot" width="700">
+</p>
 
 ## Features
 
