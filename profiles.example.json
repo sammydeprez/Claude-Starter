@@ -21,6 +21,11 @@
         "ANTHROPIC_VERTEX_PROJECT_ID": "YOUR_PROJECT_ID"
       }
     },
+    "claude-plan": {
+      "name": "Claude Plan",
+      "description": "Anthropic's Claude Plan",
+      "env": {}
+    },
     "direct": {
       "name": "Direct API",
       "description": "Direct Anthropic API access",
